@@ -1,5 +1,5 @@
 //--------------------------------------------------------//
-// 						Helper functions                  //
+//                    Helper functions                    //
 //--------------------------------------------------------//
 
 // use the following helper functions in your solution
@@ -44,7 +44,7 @@ function reduce(array, f, acc) {
   return acc;
 }
 //=============================================================================
-/*                              Q1                                           */
+/*                                    Q1                                     */
 //=============================================================================
 
 //write a function called factorial , 
@@ -59,7 +59,7 @@ function factorial(n) {
 
 
 //=============================================================================
-/*                              Q2                                           */
+/*                                    Q2                                     */
 //=============================================================================
 
 var bucketOfSloths = [
@@ -79,7 +79,7 @@ function longestName(bucketOfSloths) {
 }
 
 //=============================================================================
-/*                              Q3                                        */
+/*                                     Q3                                     */
 //=============================================================================
   //write a function that takes a string as an input and returns an array
   //containing the length of each word in that string.
@@ -90,15 +90,9 @@ function longestName(bucketOfSloths) {
   }
 
   wordLengths("hello its me") // [5,3,2]
-
-
-
-
 //=============================================================================
-/*                                  Q4                                       */
+/*                                     Q4                                     */
 //=============================================================================
-
-
 // Use the updated version of reduce to write a function max that returns the maximum number in an array of numbers.    
   function maxi(arr) {
     // your code is here
