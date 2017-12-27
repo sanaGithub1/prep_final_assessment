@@ -1,19 +1,6 @@
 //=======================================================================
-/*                              Q1                                     */                                     
+/*                                     Q1                              */
 //=======================================================================
-
-   //write a function called values that accepts an object as a parameter, and outputs an array of the object's values.
-  //solve it using one of the helpers functions(reduce,each,map,filter)
-
-  function values(obj){
-  // your code is here
-  }
-  // values({first : 5, second: 'something' , third : 129}) ==> [5, 'something', 129]; 
-
-
-//=======================================================================
-/*                                     Q2                              */
-////=====================================================================
   //lets make a user profile using closures
   //create a function person when invoked returns the name of that person
 
