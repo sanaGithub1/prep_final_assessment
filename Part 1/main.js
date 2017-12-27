@@ -79,7 +79,7 @@ function longestName(bucketOfSloths) {
 }
 
 //=============================================================================
-/*                                     Q3                                     */
+/*                                     Q3                                    */
 //=============================================================================
   //write a function that takes a string as an input and returns an array
   //containing the length of each word in that string.
@@ -91,7 +91,7 @@ function longestName(bucketOfSloths) {
 
   wordLengths("hello its me") // [5,3,2]
 //=============================================================================
-/*                                     Q4                                     */
+/*                                     Q4                                    */
 //=============================================================================
 // Use the updated version of reduce to write a function max that returns the maximum number in an array of numbers.    
   function maxi(arr) {
@@ -100,3 +100,15 @@ function longestName(bucketOfSloths) {
 
   maxi([6,2,8,9]) // 9
   maxi([9,1,14,-4]) // 14
+
+//=============================================================================
+/*                                     Q5                                    */
+//=============================================================================
+
+   //write a function called values that accepts an object as a parameter, and outputs an array of the object's values.
+  //solve it using one of the helpers functions(reduce,each,map,filter)
+
+  function values(obj){
+  // your code is here
+  }
+  // values({first : 5, second: 'something' , third : 129}) ==> [5, 'something', 129]; 
