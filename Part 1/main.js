@@ -112,3 +112,16 @@ function longestName(bucketOfSloths) {
   // your code is here
   }
   // values({first : 5, second: 'something' , third : 129}) ==> [5, 'something', 129]; 
+
+
+//=============================================================================
+/*                                     Q6                                    */
+//=============================================================================
+// Using reduce, write a function countOccurrences that accepts two parameters: a string, 
+// and a character (e.g. "a"), and returns number of times that character occured:
+
+  function countOccurrences(string, character) { // String, reduce
+    // your code is here
+  }
+  // countOccurrences("hello", "l"); // 2
+  // countOccurrences("hello, world!", "l"); // 3
