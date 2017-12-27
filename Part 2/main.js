@@ -58,3 +58,21 @@
   // player1.chageState(); // false
 
   //writ your code here .....
+  
+//=======================================================================
+/*                                  Q3                                 */
+//=======================================================================
+  //Depending on data modeling concept that you have learned:
+  //create a factory function called makeCar that represents cars,
+  // what different attributes cars may have? create two cars object from your factory function and save them in one array called cars!
+
+  function makeCar( ?? ){ // Data modeling , Object
+    // TODO: Your code here
+  }
+                   
+  // write function displayCar that can be used to display one car
+
+  function displayCar(car) { // Objects
+    // TODO: Your code here
+  }
+  
