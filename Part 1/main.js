@@ -43,8 +43,20 @@ function reduce(array, f, acc) {
   });
   return acc;
 }
+
 //=============================================================================
 /*                                    Q1                                     */
+//=============================================================================
+// write a function called addOne that takes an array of numbers as an input, and returns a new array with all the array elements incremented by one as an output
+// Note : solve this question using while loop 
+// addOne( [1,2,3,4] ) ==> [2,3,4,5]
+// addOne( [3,6,9] ) ==> [4,7,10]
+
+function addOne(array){ // arrays, loops
+ // your code is here
+}
+//=============================================================================
+/*                                    Q2                                     */
 //=============================================================================
 
 //write a function called factorial , 
@@ -59,7 +71,7 @@ function factorial(n) {
 
 
 //=============================================================================
-/*                                    Q2                                     */
+/*                                    Q3                                     */
 //=============================================================================
 
 var bucketOfSloths = [
@@ -79,7 +91,7 @@ function longestName(bucketOfSloths) {
 }
 
 //=============================================================================
-/*                                     Q3                                    */
+/*                                     Q4                                    */
 //=============================================================================
   //write a function that takes a string as an input and returns an array
   //containing the length of each word in that string.
@@ -91,7 +103,7 @@ function longestName(bucketOfSloths) {
 
   wordLengths("hello its me") // [5,3,2]
 //=============================================================================
-/*                                     Q4                                    */
+/*                                     Q5                                    */
 //=============================================================================
 // Use the updated version of reduce to write a function max that returns the maximum number in an array of numbers.    
   function maxi(arr) {
@@ -102,7 +114,7 @@ function longestName(bucketOfSloths) {
   maxi([9,1,14,-4]) // 14
 
 //=============================================================================
-/*                                     Q5                                    */
+/*                                     Q6                                    */
 //=============================================================================
 
    //write a function called values that accepts an object as a parameter, and outputs an array of the object's values.
@@ -115,7 +127,7 @@ function longestName(bucketOfSloths) {
 
 
 //=============================================================================
-/*                                     Q6                                    */
+/*                                     Q7                                    */
 //=============================================================================
 // Using reduce, write a function countOccurrences that accepts two parameters: a string, 
 // and a character (e.g. "a"), and returns number of times that character occured:
