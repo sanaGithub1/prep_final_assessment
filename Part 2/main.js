@@ -66,13 +66,13 @@
   //create a factory function called makeCar that represents cars,
   // what different attributes cars may have? create two cars object from your factory function and save them in one array called cars!
 
-  function makeCar( ?? ){ // Data modeling , Object
+  function makeCar( ?? ){
     // TODO: Your code here
   }
                    
   // write function displayCar that can be used to display one car
 
-  function displayCar(car) { // Objects
+  function displayCar(car) {
     // TODO: Your code here
   }
   
