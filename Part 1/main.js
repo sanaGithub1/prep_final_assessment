@@ -105,13 +105,14 @@ function longestName(bucketOfSloths) {
 //=============================================================================
 /*                                     Q5                                    */
 //=============================================================================
-// Use the updated version of reduce to write a function max that returns the maximum number in an array of numbers.    
-  function maxi(arr) {
+// Using reduce, write a function countOccurrences that accepts two parameters: a string, 
+// and a character (e.g. "a"), and returns number of times that character occured:
+
+  function countOccurrences(string, character) { 
     // your code is here
   }
-
-  maxi([6,2,8,9]) // 9
-  maxi([9,1,14,-4]) // 14
+  // countOccurrences("hello", "l"); // 2
+  // countOccurrences("hello, world!", "l"); // 3
 
 //=============================================================================
 /*                                     Q6                                    */
@@ -126,14 +127,3 @@ function longestName(bucketOfSloths) {
   // values({first : 5, second: 'something' , third : 129}) ==> [5, 'something', 129]; 
 
 
-//=============================================================================
-/*                                     Q7                                    */
-//=============================================================================
-// Using reduce, write a function countOccurrences that accepts two parameters: a string, 
-// and a character (e.g. "a"), and returns number of times that character occured:
-
-  function countOccurrences(string, character) { // String, reduce
-    // your code is here
-  }
-  // countOccurrences("hello", "l"); // 2
-  // countOccurrences("hello, world!", "l"); // 3
