@@ -54,6 +54,11 @@ function reduce(array, f, acc) {
 
 function addOne(array){ // arrays, loops
  // your code is here
+ while(var i = 0; i < addOne.length; i++)
+ return 
+     array = array.slice(1);
+  }
+  
 }
 //=============================================================================
 /*                                    Q2                                     */
@@ -66,7 +71,10 @@ function addOne(array){ // arrays, loops
 // factorial(5); // => 5 * 4 * 3 * 2 * 1 => 120
 
 function factorial(n) {
-   //your code is here
+	   //your code is here
+	  for(i= 0; i< i.length; i++){
+	  return  factorial(n);
+	  }
 }
 
 
@@ -85,9 +93,19 @@ var bucketOfSloths = [
 // write a function called longestName, that takes an array as an input (in this case its bucketOfSloths array)
 // and returns the sloth with the longest name in that array
 // Note that: the longest name is not only the first name, its first, middle and last name compined.
- 
-function longestName(bucketOfSloths) {
-  //your code is here 
+ //your code is here 
+function longestName(bucketOfSloths, function{
+	if (bucketOfSloths.(coll))
+ ) {
+  
+  for(var i = 0; i< bucketOfSloths.length; i++){
+    if(bucketOfSloths.name > i) {
+    	return bucketOfSloths.name + '';
+    }
+  }
+}
+
+  }
 }
 
 //=============================================================================
@@ -96,10 +114,16 @@ function longestName(bucketOfSloths) {
   //write a function that takes a string as an input and returns an array
   //containing the length of each word in that string.
   //solve it using one of the helpers functions(reduce,each,map,filter)
-
-  function wordLengths(str){
-  //your code is here
-  }
+//your code is here
+  function wordLengths(str, predicate){
+   var acc = [];
+  each(str; function(str, i)){
+  	if(wordLengths.(str, i){
+  		acc.push(str);
+  		
+  	}
+  	return str;
+ 
 
   wordLengths("hello its me") // [5,3,2]
 //=============================================================================
@@ -110,10 +134,16 @@ function longestName(bucketOfSloths) {
 
   function countOccurrences(string, character) { 
     // your code is here
+    if (countOccurrences === undifind){
+    	countOccurrences = array[0];
+    	countOccurrences = countOccurrences.count(1);
+    }
+    	return count;
   }
   // countOccurrences("hello", "l"); // 2
   // countOccurrences("hello, world!", "l"); // 3
 
+ 
 //=============================================================================
 /*                                     Q6                                    */
 //=============================================================================
@@ -122,8 +152,12 @@ function longestName(bucketOfSloths) {
   //solve it using one of the helpers functions(reduce,each,map,filter)
 
   function values(obj){
-  // your code is here
-  }
+    each(array, function(element, i) {
+    acc.push(func(obj, i));
+  });
+  return obj + '' + "";
+}
+  
   // values({first : 5, second: 'something' , third : 129}) ==> [5, 'something', 129]; 
 
 

@@ -3,13 +3,36 @@
 //=======================================================================
   //lets make a user profile using closures
   //create a function person when invoked returns the name of that person
-
-  function person(name){
-    //your code is here
-  }
   var personA=person("jack")
   var personB=person("Mark")
   var personC=person("Sara")
+  //your code is here
+ 
+  function person(name, function sayMyName(name, i){
+  	 each (name, function (name, i) {
+  	 	person.push(function sayHello, (name,i));
+
+  	 } );
+  	 return person;
+  	 }	 
+   
+    function addFriend(person, function{ person, addFriend{
+
+    }
+
+    })
+    console.log ( sayHello+ person.name + " " + "");
+  }
+  
+
+
+function map(array, func) {
+  var acc = [];
+  each(array, function(element, i) {
+    acc.push(func(element, i));
+  });
+  return acc;
+}
 
   // personA.sayMyName(); // "jack"
   // personB.sayMyName(); // "Mark"
@@ -59,6 +82,36 @@
 
   //writ your code here .....
   
+  var makePlayer1 = {
+  	playerName : "messi";
+
+  }	
+  function addInfo(age, position, level, avaliablity){
+
+  }
+  function increaseLevel{
+  	var level = n;
+ }
+ function isAvailable (){
+ 	if(player1.isAvailable = true){
+ 		return true;
+ 		else 
+ 			return false;
+ 
+ }
+
+
+ function chageState(){
+ 	if(player1.isAvailable = true){
+ 		return true} 
+ 		else
+ 			chageState = false
+
+
+
+ }
+ 	}
+
 //=======================================================================
 /*                                  Q3                                 */
 //=======================================================================
@@ -66,13 +119,22 @@
   //create a factory function called makeCar that represents cars,
   // what different attributes cars may have? create two cars object from your factory function and save them in one array called cars!
 
-  function makeCar( ?? ){
+  function makeCar( car ){
     // TODO: Your code here
+    color: color,
+    model: model,
+    year: year,
+
   }
+  makeCar[color: 'red', model: 'Toyota', year: 2018,
+  color: 'white', model: 'BMW', year: 2017]
                    
   // write function displayCar that can be used to display one car
 
   function displayCar(car) {
     // TODO: Your code here
+    displayCar.car()
+
   }
+  console.log(car);
   

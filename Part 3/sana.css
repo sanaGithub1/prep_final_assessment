@@ -1,0 +1,8 @@
+background- color : green;
+header font : italic; font-size: large;
+document.getElementByID('page2.html');
+function input('value'){
+	if(value'){
+		console.log('');
+	}
+}
